@@ -13,5 +13,4 @@ public class Application {
         app.setWebApplicationType(WebApplicationType.NONE);
         app.run(args);
     }
-
 }

@@ -13,8 +13,8 @@ public class AopRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        eventService.createEvent();
-        eventService.publishEvent();
-        eventService.deleteEvent();
+//        eventService.createEvent();
+//        eventService.publishEvent();
+//        eventService.deleteEvent();
     }
 }

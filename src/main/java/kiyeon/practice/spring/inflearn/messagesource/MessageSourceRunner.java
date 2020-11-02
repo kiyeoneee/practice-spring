@@ -21,8 +21,8 @@ public class MessageSourceRunner implements ApplicationRunner {
 //        Environment environment = ctx.getEnvironment();
 //        System.out.println(environment.getProperty("app.name"));
 //        System.out.println(environment.getProperty("app.about"));
-        System.out.println(messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.KOREA));
-        System.out.println(messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.getDefault()));
-        messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.getDefault());
+//        System.out.println(messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.KOREA));
+//        System.out.println(messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.getDefault()));
+//        messageSource.getMessage("greeting", new String[]{"kiyeon"}, Locale.getDefault());
     }
 }
