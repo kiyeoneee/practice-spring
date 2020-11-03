@@ -20,6 +20,6 @@ public class EventPublisherRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 //        applicationContext.publishEvent();
-        publishEvent.publishEvent(new MyEvent(this, 100));
+//        publishEvent.publishEvent(new MyEvent(this, 100));
     }
 }
