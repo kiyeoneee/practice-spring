@@ -1,4 +1,4 @@
-package kiyeon.practice.spring.inflearn.resourcevalidation;
+package kiyeon.practice.spring.inflearn.resourcevalidation.resourceabstract;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
@@ -8,7 +8,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ResourceValidationRunner implements ApplicationRunner {
+public class ResourceAbstractRunner implements ApplicationRunner {
 
     @Autowired
     ApplicationContext resourceLoader;
